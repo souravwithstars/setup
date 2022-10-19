@@ -18,5 +18,7 @@ curl https://raw.githubusercontent.com/ashishkujoy/setup/main/Brewfile.lock.json
 
 brew update
 brew bundle install
+rm Brewfile Brewfile.lock.json
 
 echo "setup completed..."
+say "setup completed..."
