@@ -13,4 +13,10 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+curl https://raw.githubusercontent.com/ashishkujoy/setup/main/Brewfile > Brewfile
+curl https://raw.githubusercontent.com/ashishkujoy/setup/main/Brewfile.lock.json > Brewfile.lock.json
+
+brew update
+brew bundle install
+
 echo "setup completed..."
