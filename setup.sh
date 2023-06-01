@@ -14,8 +14,8 @@ if test ! $(which brew); then
 fi
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-curl https://raw.githubusercontent.com/ashishkujoy/setup/main/Brewfile > Brewfile
-curl https://raw.githubusercontent.com/ashishkujoy/setup/main/Brewfile.lock.json > Brewfile.lock.json
+curl https://raw.githubusercontent.com/souravwithstars/setup/main/Brewfile > Brewfile
+curl https://raw.githubusercontent.com/souravwithstars/setup/main/Brewfile.lock.json > Brewfile.lock.json
 
 brew update
 brew bundle install
